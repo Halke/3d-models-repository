@@ -1,0 +1,19 @@
+@import './variables';
+@import './mixins';
+@import './functions';
+
+@import './defaults';
+
+@import './pages/all';
+@import './sections/all';
+@import './forms/all';
+@import './singles/all';
+@import './blocks/all';
+
+.green-bg {
+    background-color: $secondary-color;
+}
+
+.fits-screen {
+    min-height: 100vh;
+}

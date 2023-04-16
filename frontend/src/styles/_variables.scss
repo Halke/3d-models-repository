@@ -1,0 +1,41 @@
+/**************
+* COLORS
+**************/
+
+$primary-color: #05386b;
+$primary-color-shades: (
+  100: #6884a6,
+  200: #517197,
+  300: #395e88,
+  400: #224b7a,
+  500: $primary-color,
+  600: #042f5c,
+  700: #03274e,
+  800: #021f3f,
+  900: #011732,
+);
+
+$secondary-color: #5cdb95;
+$secondary-color-shades: (
+  100: #a6eabf,
+  200: #96e7b5,
+  300: #84e3aa,
+  400: #71dfa0,
+  500: $secondary-color,
+  600: #4fbe81,
+  700: #42a26d,
+  800: #36875a,
+  900: #2a6d48,
+);
+
+$light: #edf5e1;
+
+$text-color: $primary-color;
+$text-color-light: $light;
+
+/**************
+* BORDER VARIABLES
+**************/
+
+$border-radius: 12px;
+$border-radius-large: 21px;

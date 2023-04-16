@@ -1,0 +1,7 @@
+@function use-primary-color($shade: 500) {
+  @return map-get($primary-color-shades, $shade);
+}
+
+@function use-secondary-color($shade: 500) {
+  @return map-get($secondary-color-shades, $shade);
+}
