@@ -1,4 +1,4 @@
-# Repositoy info
+# Repository info
 
 This is a final project for the University.
 
