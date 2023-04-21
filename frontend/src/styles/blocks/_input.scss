@@ -1,0 +1,27 @@
+.input-field {
+  input {
+    all: unset;
+
+    box-sizing: border-box;
+
+    background-color: use-secondary-color();
+    color: use-primary-color();
+
+    padding: 12px 4px;
+
+    border-radius: $input-border-radius;
+
+    transition: $transition-duration;
+
+    width: 100%;
+
+    &:focus,
+    &:hover {
+      background-color: use-secondary-color(100);
+    }
+  }
+
+  &__label {
+    margin-bottom: 8px;
+  }
+}
