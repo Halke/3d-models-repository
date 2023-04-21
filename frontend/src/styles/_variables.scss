@@ -34,8 +34,56 @@ $text-color: $primary-color;
 $text-color-light: $light;
 
 /**************
+* FONTS
+**************/
+
+$font-primary: "IBM Plex Sans", sans-serif;
+$font-secondary: "IBM Plex Sans Condensed", sans-serif;
+
+$titles-font: $font-secondary;
+
+/**************
+* SIZES
+**************/
+
+$size-1: 2.5rem;
+$size-2: 2rem;
+$size-3: 1.75rem;
+$size-4: 1.5rem;
+$size-5: 1rem;
+$size-6: 0.75rem;
+
+/**************
 * BORDER VARIABLES
 **************/
 
 $border-radius: 12px;
 $border-radius-large: 21px;
+
+/**************
+* BREAKPOINTS
+**************/
+
+$mobile: 768px;
+$tablet: 1024px;
+$desktop: 1440px;
+$widescreen: 1920px;
+
+/**************
+* SHADOWS
+**************/
+
+$box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+
+/**************
+* TRANSITIONS
+**************/
+
+$transition-duration: 0.15s;
+
+/**************
+* INPUT & BUTTOM PROPERTIES
+**************/
+
+$input-border-radius: 4px;
+$button-border-radius: 4px;
