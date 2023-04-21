@@ -1,19 +1,28 @@
-@import './variables';
-@import './mixins';
-@import './functions';
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&family=IBM+Plex+Sans+Condensed:wght@400;500;600&display=swap");
 
-@import './defaults';
+@import "./variables";
+@import "./mixins";
+@import "./functions";
 
-@import './pages/all';
-@import './sections/all';
-@import './forms/all';
-@import './singles/all';
-@import './blocks/all';
+@import "./helpers";
+
+@import "./defaults";
+
+@import "./pages/all";
+@import "./sections/all";
+@import "./forms/all";
+@import "./singles/all";
+@import "./blocks/all";
 
 .green-bg {
-    background-color: $secondary-color;
+  background: use-primary-color();
+  background: linear-gradient(
+    130deg,
+    use-primary-color() 0%,
+    use-secondary-color() 40%
+  );
 }
 
 .fits-screen {
-    min-height: 100vh;
+  min-height: 100vh;
 }
