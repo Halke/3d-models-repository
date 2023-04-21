@@ -1,0 +1,19 @@
+.admin-login-page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  h2 {
+    color: $light;
+    text-align: center;
+
+    margin: 20px 0 40px;
+  }
+
+  @include tablet {
+    &__logo {
+      margin-top: 40px
+    }
+  }
+}
